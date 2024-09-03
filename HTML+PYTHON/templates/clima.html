@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>hola</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/clima.css') }}">
+</head>
+<body>
+    <form action="/clima" method="post">
+     <label for="name" class="h">Clima:</label>
+     <input type="text" id="clima" name="clima" class="h">
+     <input type="submit" value="Enviar">
+    </form>
+    {{temperature}}
+    asjvdasjkdf
+</body>
+</html>

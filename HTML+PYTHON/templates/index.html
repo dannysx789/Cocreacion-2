@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<!--sin margen ,preguntar,style="margin: 0;",en body-->
+<body>
+
+    <div class="contenedor">
+        <img src="{{ url_for('static', filename='img/imgpronew.png') }}" alt="Imagen principal" class="image">
+        <div class="selectors">
+            <!-- Dropdown-->
+            <div class="dropdown-container">
+                Historia
+                <div class="options">
+                    <a href="cundinamarca#Historia" class="option">
+                        Cundinamarca
+                    </a>
+                    <a href="boyaca#Historia" class="option">
+                        Boyacá
+                    </a>
+                </div>
+            </div>
+
+            <div class="dropdown-container">
+                Poblacion
+                <div class="options">
+                    <a href="cundinamarca#Poblacion" class="option">
+                        Cundinamarca
+                    </a>
+                    <a href="boyaca#Poblacion" class="option">
+                        Boyacá
+                    </a>
+                </div>
+            </div>
+
+            <div class="dropdown-container">
+                Flora
+                <div class="options">
+                    <a href="cundinamarca#Flora" class="option">
+                        Cundinamarca
+                    </a>
+                    <a href="boyaca#Flora" class="option">
+                        Boyacá
+                    </a>
+                </div>
+            </div>
+
+            <div class="dropdown-container">
+                Fauna
+                <div class="options">
+                    <a href="cundinamarca#Fauna" class="option">
+                        Cundinamarca
+                    </a>
+                    <a href="boyaca#Fauna" class="option">
+                        Boyacá
+                    </a>
+                </div>
+            </div>
+    </div>
+   </div>
+
+  
+   
+   <div class="First_text">
+    <h1> Cundinamarca y Boyacá </h1> 
+     <p style="margin: 0;">Estas dos regiones de Colombia albergan una 
+     Impresionante biodiversidad, con una gran variedad
+     de ecosistemas que van desde los paramos andinos
+     hasta los valles fertiles.</p>
+    </div>
+    <div class="main-container">  
+                <img src="{{ url_for('static', filename='img/boyacabio.jpg') }}" alt=""  >
+             <div>
+                <h3>Boyacá</h3>
+                <p> Boyacá, una región ubicada en el centro-oriente de Colombia, es reconocida por su impresionante biodiversidad y variados ecosistemas. Esta región alberga una amplia gama de especies de flora y fauna debido a su diversidad de hábitats que incluyen páramos, bosques andinos, y valles interandinos.</p>
+               
+                <p><strong>Páramos:</strong>Boyacá alberga extensos páramos, ecosistemas de alta montaña vitales para la regulación hídrica y la conservación de especies endémicas. El páramo de Ocetá, destacado por su belleza y biodiversidad, es emblemático en la región y contribuye significativamente al equilibrio ecológico local.</p>
+               
+                <p><strong>Bosques Andinos:</strong> Estos bosques son ricos en biodiversidad y albergan una variedad de especies de plantas y animales, muchos de los cuales son endémicos. La región es crucial para la conservación de aves y mamíferos, como el oso de anteojos y el venado de cola blanca.</p>
+               
+                <p><strong>Valles Interandinos:</strong> Los valles y cuencas hidrográficas de Boyacá, como el Valle de Tenza, son cruciales para la agricultura debido a sus suelos fértiles y clima propicio. </p>
+
+                <p>Estos valles no solo son fundamentales para la producción agrícola local, sino también para la conservación de la biodiversidad regional.</p>
+
+                <p><strong>Fauna:</strong>Boyacá es reconocido por su diversidad de aves, mariposas, anfibios y reptiles. La región se destaca como un paraíso para los observadores de aves, con especies como el colibrí y el cóndor de los Andes sobresaliendo en sus cielos.Además, alberga una variedad de fauna terrestre y acuática, contribuyendo significativamente a la riqueza natural y la atracción ecoturística de Boyacá.
+
+                </p>  
+                               
+                <p><strong>Flora:</strong>La flora de Boyacá es notable por su diversidad, abarcando desde delicadas orquídeas hasta robustos frailejones, que desempeñan roles fundamentales en los ecosistemas de los páramos. Estas plantas no solo contribuyen a la belleza paisajística de la región, sino que también son cruciales para mantener la biodiversidad y la estabilidad ecológica de Boyacá, especialmente en los hábitats de alta montaña como los páramos.</p>
+           </div>  
+    
+    </div>
+    <div class="biodiversity-container">
+        <div>
+            <h3>Cundinamarca</h3>
+            <p>Cundinamarca es un departamento ubicado en la región central de Colombia y presenta una gran biodiversidad debido a su variedad de ecosistemas y altitudes. Aquí tienes una descripción de su biodiversidad en relación con los páramos, bosques andinos, valles interandinos, fauna y flora.</p>
+    
+            <p><strong>Páramos:</strong>Son ecosistemas únicos y frágiles ubicados en las altas montañas de la cordillera de los Andes, por encima de los 3,000 metros sobre el nivel del mar. En Cundinamarca, son vitales para la regulación hídrica y retención de agua.</p>
+    
+            <p><strong>Bosques andinos:</strong>Bosques húmedos y nublados de Cundinamarca, entre 2,000 y 3,000 metros sobre el nivel del mar. Flora diversa con roble andino, encenillo, laurel de cera, orquídeas y bromelias. Fauna incluye puma, armadillo, zorro gris, tucán andino y gallito de roca. Cruciales para la biodiversidad regional.</p>
+    
+            <p><strong>Valles interandinos:</strong> Los valles interandinos de Cundinamarca, ubicados entre los 500 y 2,000 metros sobre el nivel del mar, tienen un clima más cálido y seco que las zonas más altas.</p>  
+
+            <p>Esto los convierte en áreas agrícolas clave, con suelos fértiles ideales para cultivos como café, maíz y frutas.</p>
+    
+            <p><strong>Fauna:</strong>En los páramos y bosques andinos habitan mamíferos como el oso de anteojos, el puma y el tigrillo. Además, la región alberga aves emblemáticas como el cóndor de los Andes, el tucán andino y el gallito de roca, así como diversas especies de anfibios, reptiles e insectos, vitales para la polinización.</p> 
+    
+            <p><strong>Flora:</strong>En los páramos, predominan frailejones, musgos y líquenes. Los bosques andinos albergan roble andino, encenillo y numerosas orquídeas y bromelias estos ecosistemas son cruciales para la biodiversidad de la región.</p>  
+
+           <p> En los valles interandinos, se encuentran cultivos agrícolas como café y maíz, además de vegetación secundaria.</p>
+        </div>  
+        <img src="{{ url_for('static', filename='img/cundinabio.jpg') }}" alt=""  >
+    </div>
+     
+ <!--parte ana-->
+
+     <div class="container">
+        <div class="card">
+            <figure>
+                <img src="{{ url_for('static', filename='img/imagen2.jpeg') }}">
+            </figure>
+            <div class="contenido">
+                <h3>BOYACA</h3>
+                {{boyaca_temperature}}
+                <P>Explora con nosotros la rica y variada biodiversidad que caracteriza a Boyacá.
+                     Sumérgete en nuestro sitio dedicado y descubre la amplia gama de especies,
+                     historia flora y fauna que hacen de esta región un verdadero tesoro natural.</P>
+                     <a href="boyaca">Clik para ver Mas</a>
+            </div>      
+    </div>
+    <div class="card">
+        <figure>
+            <img src="{{ url_for('static', filename='img/imagen1.jpeg') }}">
+        </figure>
+        <div class="contenido">
+            <h3>CUNDINAMARCA</h3>
+            {{cundinamarca_temperature}}
+            <P>Cundinamarca es una región central de Colombia en torno a Bogotá, 
+                la extensa capital del país que se encuentra a gran altura. La Candelaria, 
+                el centro con adoquines de la ciudad, tiene lugares de la era colonial.</P>
+                 <a href="cundinamarca">Click para ver Mas</a>
+        </div>      
+</div>
+     </div>
+  
+     <!--parte julieth-->
+     <footer>
+        <div style="width: 100%;height: 25%; background-color: darkgreen; text-align: center; padding-top: 10px;"> 
+            
+            <div class="row" style="width: 100%; margin: auto">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                <p class="sobreN">Sobre Nosotros:</p>
+            </div>
+            <div class="col-md-1"></div>
+            </div>
+
+            <div class="row" style="width: 100%; margin: auto;">
+            <div class="col-md-2"></div>
+
+            <div class="col-md-1">
+                <p class="p"><img src="{{ url_for('static', filename='img/Facebook.png') }}" alt="logo de facebook" class="img"> <br>
+                <a href="https://www.facebook.com" class="red_social" target="_blank">Facebook</a></p>
+            </div>
+
+            <div class="col-md-1">
+            <p class="p"><img src="{{ url_for('static', filename='img/Instagram.png') }}" alt="logo de instagram" class="img"> <br>
+            <a href="https://www.instagram.com" class="red_social" target="_blank">Instagram</a></p>
+        </div>
+        <div class="col-md-1">
+        <p class="p"><img src="{{ url_for('static', filename='img/Twitter.png') }}" alt="logo de twitter" class="img"> <br>
+        <a href="https://www.twitter.com" class="red_social" target="blank">Twitter</a></p>
+    </div>
+    <div class="col-md-1">
+        <p class="p"><img src="{{ url_for('static', filename='img/Telefono1.png') }}" alt="logo de telefono" class="img"> <br>
+        Teléfono </p>
+    </div> 
+    <div class="col-md-1"></div>
+    <div class="col-md-4" style="text-align: center;">
+        <p class="copy">©2024 Riqueza Verde - All right reserved</p>
+    </div>
+        </div>
+        </div>
+        </footer>
+     
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ 
+</body>
+</html>
